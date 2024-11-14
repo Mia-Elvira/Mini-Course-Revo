@@ -29,8 +29,6 @@
                 margin-right: auto;
             }
 
-            
-
           .nama1 {
             border: 2px solid black;
             height: 20px;
@@ -40,7 +38,7 @@
           .tanggal1 {
             border: 2px solid black;
             height: 25px;
-            width: 300px;
+            width: 303px;
           }
 
           .pesan1 {
@@ -53,6 +51,19 @@
             border: 2px solid black;
             height: 30px;
             width: 400px;
+          }
+
+          .form1 > div {
+            display: flex;
+            flex-direction: row;
+            width: 500px;
+            justify-content: space-between;
+            padding: 10px;
+          }
+
+          .jeniskelamin .jeniskelamin2 {
+            position: relative;
+            left: -125px;
           }
 
         </style>
@@ -74,10 +85,9 @@
         </header>
 
         <main style="flex-direction: row;display: flex;">
-            <form>
+            <form class="form1">
                 <form action="https://www.google.com" method="post">
-
-                <div class="form1">   
+  
 
                     <div class="nama">
                     <label for="nama">Nama : </label>
@@ -91,11 +101,16 @@
 
                     <div class="jeniskelamin">
                     <label for="jeniskelamin">Jenis Kelamin : </label>
-                    <input type="radio" id="Lakilaki" name="gender" value="Laki-laki">
+                    
+                    <div class="jeniskelamin2">
+                    <input type="radio" id="Lakilaki" name="lakilaki" value="Laki-laki" class="lakilaki1">
                     <label for="lakilaki">Laki-laki</label>
-                    <input type="radio" id="perempuan" name="gender" value="Perempuan">
+   
+                    <input type="radio" id="perempuan" name="perempuan" value="Perempuan" class="perempuan1">
                     <label for="perempuan">Perempuan</label>
                     </div>
+                    </div>
+                    
 
                     <div class="pesan">
                     <label for="Pesan">Pesan : </label>
@@ -106,7 +121,6 @@
                     <input type="button" value="submit" class="button1">
                     </div>
 
-                </div> 
             </form>
 
             <table>
