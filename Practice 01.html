@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practice 01</title>
+
+        <style>
+         
+            .wrapper {
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: right;
+                border: 2px solid black;
+                column-gap: 10px;
+            }
+            
+            .wrapper > div {
+                width: 100px;
+                height: 20px;
+                border: 2px solid black;
+                border-radius: 20px;
+                background-color: white;
+                padding: 10px;
+            }
+           
+            .image1 {
+                display: block;
+                margin-left: 1cm;
+                margin-right: auto;
+            }
+
+            
+
+          .nama1 {
+            border: 2px solid black;
+            height: 20px;
+            width: 300px;
+          }          
+
+          .tanggal1 {
+            border: 2px solid black;
+            height: 25px;
+            width: 300px;
+          }
+
+          .pesan1 {
+            border: 2px solid black;
+            height: 100px;
+            width: 300px;
+          }
+
+          .button1 {
+            border: 2px solid black;
+            height: 30px;
+            width: 400px;
+          }
+
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <div class="wrapper">
+                <image class="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQsN3PrTl9vp6R9zUV_Fccy_r4kqNElQudw&s" alr="revou" width="60" height="60"/>
+                <div class="box1"><center>Home</center></div>
+                <div class="box2"><center>My Profile</center></div>
+                <div class="box3"><center>Portofolio</center></div>
+                <div class="box4"><center>Message Us</center></div>
+            </div>
+
+            <h1>Form Belajar</h1>
+            <p>ini adalah website latihan pertama</p>
+
+        </header>
+
+        <main style="flex-direction: row;display: flex;">
+            <form>
+                <form action="https://www.google.com" method="post">
+
+                <div class="form1">   
+
+                    <div class="nama">
+                    <label for="nama">Nama : </label>
+                    <input type="text" id="nama" name="nama" class="nama1">
+                    </div>
+
+                    <div class="tanggal">
+                    <label for="tanggal">Tanggal Lahir : </label>
+                    <input type="date" id="tanggal" name="tanggal" class="tanggal1">
+                    </div>
+
+                    <div class="jeniskelamin">
+                    <label for="jeniskelamin">Jenis Kelamin : </label>
+                    <input type="radio" id="Lakilaki" name="gender" value="Laki-laki">
+                    <label for="lakilaki">Laki-laki</label>
+                    <input type="radio" id="perempuan" name="gender" value="Perempuan">
+                    <label for="perempuan">Perempuan</label>
+                    </div>
+
+                    <div class="pesan">
+                    <label for="Pesan">Pesan : </label>
+                    <input type="text" id="pesan" name="pesan" class="pesan1">
+                    </div>
+
+                    <div class="button">
+                    <input type="button" value="submit" class="button1">
+                    </div>
+
+                </div> 
+            </form>
+
+            <table>
+                <style>
+                    table, th, td {
+                        border: 1px, solid black;
+                        border-collapse: collapse;
+                    }
+                </style>
+                <tr>
+                    <th>Nama</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Pesan</th>
+                    <th>Profile</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>Ada Loveiace</td>
+                    <td>December 10, 1815</td>
+                    <td>Perempuan</td>
+                    <td>Belajar Buat Website</td>
+                    <td>
+                        <a href="https://www.google.com" terget="_blanl">Klik Disini</a>
+                    </td>
+                    <td>
+                        <img src="https://e7.pngegg.com/pngimages/767/680/png-clipart-computer-icons-corbeille-a-papier-trash-symbol-miscellaneous-text.png" alt="tong sampah" width="50" height="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Grace Hopper</td>
+                    <td>December 9, 1906</td>
+                    <td>Perempuan</td>
+                    <td>Hello World</td>
+                    <td>
+                        <a href="https://www.google.com" terget="_blanl">Klik Disini</a>
+                    </td>
+                    <td>
+                        <img src="https://e7.pngegg.com/pngimages/767/680/png-clipart-computer-icons-corbeille-a-papier-trash-symbol-miscellaneous-text.png" alt="tong sampah" width="50" height="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Margaret Hamilton</td>
+                    <td>August 17, 1936</td>
+                    <td>Perempuan</td>
+                    <td>Test Dulu</td>
+                    <td>
+                        <a href="https://www.google.com" terget="_blanl">Klik Disini</a>
+                    </td>
+                    <td>
+                        <img src="https://e7.pngegg.com/pngimages/767/680/png-clipart-computer-icons-corbeille-a-papier-trash-symbol-miscellaneous-text.png" alt="tong sampah" width="50" height="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Joan Clarke</td>
+                    <td>June 24, 1917</td>
+                    <td>Laki-Laki</td>
+                    <td>Selalu Semangat</td>
+                    <td>
+                        <a href="https://www.google.com" terget="_blanl">Klik Disini</a>
+                    </td>
+                    <td>
+                        <img src="https://e7.pngegg.com/pngimages/767/680/png-clipart-computer-icons-corbeille-a-papier-trash-symbol-miscellaneous-text.png" alt="tong sampah" width="50" height="30">
+                    </td>
+                </tr>
+            </table>
+        </main>
+    </body>
+</html>
